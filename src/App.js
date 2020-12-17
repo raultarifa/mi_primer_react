@@ -4,6 +4,7 @@ import Jsx from './components/Jsx.js'
 import Lista from './components/Lista.js'
 import Formulario from './components/Formulario.js'
 import FormHook from './components/FormHook.js'
+import EjemploUno from './components/EjemploUno.js';
 
 
 function App() {
@@ -20,8 +21,9 @@ const saludo ='Prueba'
       <Jsx />
       <Lista />
       <Formulario />
-      */}
       <FormHook />
+      */}
+      <EjemploUno />
     </div>
   );
 }
