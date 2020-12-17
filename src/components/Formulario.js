@@ -22,10 +22,6 @@ const Formulario = () => {
        {/* evitamos el procesamiento automatico con la siguiente funcion */} 
        event.preventDefault();
        console.log(datos.nombre + ' ' + datos.apellidos)
-
-
-
-
     }
 
     return ( 

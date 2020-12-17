@@ -3,6 +3,7 @@ import Contador from './components/Contador.js'
 import Jsx from './components/Jsx.js'
 import Lista from './components/Lista.js'
 import Formulario from './components/Formulario.js'
+import FormHook from './components/FormHook.js'
 
 
 function App() {
@@ -18,8 +19,9 @@ const saludo ='Prueba'
       <Contador />
       <Jsx />
       <Lista />
-      */}
       <Formulario />
+      */}
+      <FormHook />
     </div>
   );
 }
